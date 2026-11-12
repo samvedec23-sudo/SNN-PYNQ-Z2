@@ -1,0 +1,37 @@
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+snn_env/
+.ipynb_checkpoints/
+
+# CIFAR-10 datasets
+**/cifar-10-python/
+**/cifar-10-python.tar.gz
+**/cifar-10-batches-py/
+
+# Vivado temporary files
+**/.Xil/
+**/*.cache/
+**/*.gen/
+**/*.hw/
+**/*.runs/
+**/*.sim/
+**/*.tmp/
+**/*.ip_user_files/
+
+# Vivado logs
+*.jou
+*.log
+
+# Temporary files
+*.bak
+*.swp
+Thumbs.db
+.DS_Store
+
+# Environment secrets
+.env
+.env.*

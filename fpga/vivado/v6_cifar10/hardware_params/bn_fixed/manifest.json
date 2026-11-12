@@ -1,0 +1,62 @@
+{
+  "format": "signed_fixed_point",
+  "fractional_bits": 16,
+  "scale": 65536,
+  "batchnorm_eps": 1e-05,
+  "layers": {
+    "bn0": {
+      "channels": 64,
+      "eps": 1e-05,
+      "max_abs_scale_error": 7.565813477494743e-06,
+      "max_abs_offset_error": 7.549946298479604e-06
+    },
+    "res1.bn1": {
+      "channels": 64,
+      "eps": 1e-05,
+      "max_abs_scale_error": 7.555690161531459e-06,
+      "max_abs_offset_error": 7.618027196815147e-06
+    },
+    "res1.bn2": {
+      "channels": 64,
+      "eps": 1e-05,
+      "max_abs_scale_error": 7.623957791857983e-06,
+      "max_abs_offset_error": 7.556136872977071e-06
+    },
+    "bn1": {
+      "channels": 128,
+      "eps": 1e-05,
+      "max_abs_scale_error": 7.625124834709229e-06,
+      "max_abs_offset_error": 7.606045036356868e-06
+    },
+    "res2.bn1": {
+      "channels": 128,
+      "eps": 1e-05,
+      "max_abs_scale_error": 7.533173535606563e-06,
+      "max_abs_offset_error": 7.626962171269902e-06
+    },
+    "res2.bn2": {
+      "channels": 128,
+      "eps": 1e-05,
+      "max_abs_scale_error": 7.6253154655536726e-06,
+      "max_abs_offset_error": 7.57784930915939e-06
+    },
+    "bn2": {
+      "channels": 256,
+      "eps": 1e-05,
+      "max_abs_scale_error": 7.57968297804279e-06,
+      "max_abs_offset_error": 7.569956084862994e-06
+    },
+    "res3.bn1": {
+      "channels": 256,
+      "eps": 1e-05,
+      "max_abs_scale_error": 7.625242053777015e-06,
+      "max_abs_offset_error": 7.615314199571621e-06
+    },
+    "res3.bn2": {
+      "channels": 256,
+      "eps": 1e-05,
+      "max_abs_scale_error": 7.623167491005445e-06,
+      "max_abs_offset_error": 7.570562633840705e-06
+    }
+  }
+}

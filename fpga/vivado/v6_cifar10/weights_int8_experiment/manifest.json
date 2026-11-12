@@ -1,0 +1,130 @@
+[
+  {
+    "name": "conv0.weight",
+    "file": "conv0__weight.npy",
+    "shape": [
+      64,
+      3,
+      3,
+      3
+    ],
+    "dtype": "int8",
+    "scale": 0.004538990381195789,
+    "method": "symmetric per-tensor"
+  },
+  {
+    "name": "res1.conv1.weight",
+    "file": "res1__conv1__weight.npy",
+    "shape": [
+      64,
+      64,
+      3,
+      3
+    ],
+    "dtype": "int8",
+    "scale": 0.005008420606297771,
+    "method": "symmetric per-tensor"
+  },
+  {
+    "name": "res1.conv2.weight",
+    "file": "res1__conv2__weight.npy",
+    "shape": [
+      64,
+      64,
+      3,
+      3
+    ],
+    "dtype": "int8",
+    "scale": 0.003632390358316617,
+    "method": "symmetric per-tensor"
+  },
+  {
+    "name": "conv1.weight",
+    "file": "conv1__weight.npy",
+    "shape": [
+      128,
+      64,
+      3,
+      3
+    ],
+    "dtype": "int8",
+    "scale": 0.00428723209486233,
+    "method": "symmetric per-tensor"
+  },
+  {
+    "name": "res2.conv1.weight",
+    "file": "res2__conv1__weight.npy",
+    "shape": [
+      128,
+      128,
+      3,
+      3
+    ],
+    "dtype": "int8",
+    "scale": 0.004181344678082804,
+    "method": "symmetric per-tensor"
+  },
+  {
+    "name": "res2.conv2.weight",
+    "file": "res2__conv2__weight.npy",
+    "shape": [
+      128,
+      128,
+      3,
+      3
+    ],
+    "dtype": "int8",
+    "scale": 0.0036119523010854646,
+    "method": "symmetric per-tensor"
+  },
+  {
+    "name": "conv2.weight",
+    "file": "conv2__weight.npy",
+    "shape": [
+      256,
+      128,
+      3,
+      3
+    ],
+    "dtype": "int8",
+    "scale": 0.003803536647886742,
+    "method": "symmetric per-tensor"
+  },
+  {
+    "name": "res3.conv1.weight",
+    "file": "res3__conv1__weight.npy",
+    "shape": [
+      256,
+      256,
+      3,
+      3
+    ],
+    "dtype": "int8",
+    "scale": 0.0031699488951465278,
+    "method": "symmetric per-tensor"
+  },
+  {
+    "name": "res3.conv2.weight",
+    "file": "res3__conv2__weight.npy",
+    "shape": [
+      256,
+      256,
+      3,
+      3
+    ],
+    "dtype": "int8",
+    "scale": 0.004527294260310376,
+    "method": "symmetric per-tensor"
+  },
+  {
+    "name": "fc.weight",
+    "file": "fc__weight.npy",
+    "shape": [
+      10,
+      4096
+    ],
+    "dtype": "int8",
+    "scale": 0.002807677026808731,
+    "method": "symmetric per-tensor"
+  }
+]

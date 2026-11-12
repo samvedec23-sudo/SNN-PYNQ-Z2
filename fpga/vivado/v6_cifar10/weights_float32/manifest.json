@@ -1,0 +1,700 @@
+[
+  {
+    "name": "conv0.weight",
+    "file": "conv0__weight.npy",
+    "shape": [
+      64,
+      3,
+      3,
+      3
+    ],
+    "dtype": "float32"
+  },
+  {
+    "name": "bn0.weight",
+    "file": "bn0__weight.npy",
+    "shape": [
+      64
+    ],
+    "dtype": "float32"
+  },
+  {
+    "name": "bn0.bias",
+    "file": "bn0__bias.npy",
+    "shape": [
+      64
+    ],
+    "dtype": "float32"
+  },
+  {
+    "name": "bn0.running_mean",
+    "file": "bn0__running_mean.npy",
+    "shape": [
+      64
+    ],
+    "dtype": "float32"
+  },
+  {
+    "name": "bn0.running_var",
+    "file": "bn0__running_var.npy",
+    "shape": [
+      64
+    ],
+    "dtype": "float32"
+  },
+  {
+    "name": "bn0.num_batches_tracked",
+    "file": "bn0__num_batches_tracked.npy",
+    "shape": [],
+    "dtype": "float32"
+  },
+  {
+    "name": "lif0.threshold",
+    "file": "lif0__threshold.npy",
+    "shape": [],
+    "dtype": "float32"
+  },
+  {
+    "name": "lif0.graded_spikes_factor",
+    "file": "lif0__graded_spikes_factor.npy",
+    "shape": [],
+    "dtype": "float32"
+  },
+  {
+    "name": "lif0.reset_mechanism_val",
+    "file": "lif0__reset_mechanism_val.npy",
+    "shape": [],
+    "dtype": "float32"
+  },
+  {
+    "name": "lif0.beta",
+    "file": "lif0__beta.npy",
+    "shape": [],
+    "dtype": "float32"
+  },
+  {
+    "name": "res1.conv1.weight",
+    "file": "res1__conv1__weight.npy",
+    "shape": [
+      64,
+      64,
+      3,
+      3
+    ],
+    "dtype": "float32"
+  },
+  {
+    "name": "res1.bn1.weight",
+    "file": "res1__bn1__weight.npy",
+    "shape": [
+      64
+    ],
+    "dtype": "float32"
+  },
+  {
+    "name": "res1.bn1.bias",
+    "file": "res1__bn1__bias.npy",
+    "shape": [
+      64
+    ],
+    "dtype": "float32"
+  },
+  {
+    "name": "res1.bn1.running_mean",
+    "file": "res1__bn1__running_mean.npy",
+    "shape": [
+      64
+    ],
+    "dtype": "float32"
+  },
+  {
+    "name": "res1.bn1.running_var",
+    "file": "res1__bn1__running_var.npy",
+    "shape": [
+      64
+    ],
+    "dtype": "float32"
+  },
+  {
+    "name": "res1.bn1.num_batches_tracked",
+    "file": "res1__bn1__num_batches_tracked.npy",
+    "shape": [],
+    "dtype": "float32"
+  },
+  {
+    "name": "res1.lif1.threshold",
+    "file": "res1__lif1__threshold.npy",
+    "shape": [],
+    "dtype": "float32"
+  },
+  {
+    "name": "res1.lif1.graded_spikes_factor",
+    "file": "res1__lif1__graded_spikes_factor.npy",
+    "shape": [],
+    "dtype": "float32"
+  },
+  {
+    "name": "res1.lif1.reset_mechanism_val",
+    "file": "res1__lif1__reset_mechanism_val.npy",
+    "shape": [],
+    "dtype": "float32"
+  },
+  {
+    "name": "res1.lif1.beta",
+    "file": "res1__lif1__beta.npy",
+    "shape": [],
+    "dtype": "float32"
+  },
+  {
+    "name": "res1.conv2.weight",
+    "file": "res1__conv2__weight.npy",
+    "shape": [
+      64,
+      64,
+      3,
+      3
+    ],
+    "dtype": "float32"
+  },
+  {
+    "name": "res1.bn2.weight",
+    "file": "res1__bn2__weight.npy",
+    "shape": [
+      64
+    ],
+    "dtype": "float32"
+  },
+  {
+    "name": "res1.bn2.bias",
+    "file": "res1__bn2__bias.npy",
+    "shape": [
+      64
+    ],
+    "dtype": "float32"
+  },
+  {
+    "name": "res1.bn2.running_mean",
+    "file": "res1__bn2__running_mean.npy",
+    "shape": [
+      64
+    ],
+    "dtype": "float32"
+  },
+  {
+    "name": "res1.bn2.running_var",
+    "file": "res1__bn2__running_var.npy",
+    "shape": [
+      64
+    ],
+    "dtype": "float32"
+  },
+  {
+    "name": "res1.bn2.num_batches_tracked",
+    "file": "res1__bn2__num_batches_tracked.npy",
+    "shape": [],
+    "dtype": "float32"
+  },
+  {
+    "name": "res1.lif2.threshold",
+    "file": "res1__lif2__threshold.npy",
+    "shape": [],
+    "dtype": "float32"
+  },
+  {
+    "name": "res1.lif2.graded_spikes_factor",
+    "file": "res1__lif2__graded_spikes_factor.npy",
+    "shape": [],
+    "dtype": "float32"
+  },
+  {
+    "name": "res1.lif2.reset_mechanism_val",
+    "file": "res1__lif2__reset_mechanism_val.npy",
+    "shape": [],
+    "dtype": "float32"
+  },
+  {
+    "name": "res1.lif2.beta",
+    "file": "res1__lif2__beta.npy",
+    "shape": [],
+    "dtype": "float32"
+  },
+  {
+    "name": "conv1.weight",
+    "file": "conv1__weight.npy",
+    "shape": [
+      128,
+      64,
+      3,
+      3
+    ],
+    "dtype": "float32"
+  },
+  {
+    "name": "bn1.weight",
+    "file": "bn1__weight.npy",
+    "shape": [
+      128
+    ],
+    "dtype": "float32"
+  },
+  {
+    "name": "bn1.bias",
+    "file": "bn1__bias.npy",
+    "shape": [
+      128
+    ],
+    "dtype": "float32"
+  },
+  {
+    "name": "bn1.running_mean",
+    "file": "bn1__running_mean.npy",
+    "shape": [
+      128
+    ],
+    "dtype": "float32"
+  },
+  {
+    "name": "bn1.running_var",
+    "file": "bn1__running_var.npy",
+    "shape": [
+      128
+    ],
+    "dtype": "float32"
+  },
+  {
+    "name": "bn1.num_batches_tracked",
+    "file": "bn1__num_batches_tracked.npy",
+    "shape": [],
+    "dtype": "float32"
+  },
+  {
+    "name": "lif1.threshold",
+    "file": "lif1__threshold.npy",
+    "shape": [],
+    "dtype": "float32"
+  },
+  {
+    "name": "lif1.graded_spikes_factor",
+    "file": "lif1__graded_spikes_factor.npy",
+    "shape": [],
+    "dtype": "float32"
+  },
+  {
+    "name": "lif1.reset_mechanism_val",
+    "file": "lif1__reset_mechanism_val.npy",
+    "shape": [],
+    "dtype": "float32"
+  },
+  {
+    "name": "lif1.beta",
+    "file": "lif1__beta.npy",
+    "shape": [],
+    "dtype": "float32"
+  },
+  {
+    "name": "res2.conv1.weight",
+    "file": "res2__conv1__weight.npy",
+    "shape": [
+      128,
+      128,
+      3,
+      3
+    ],
+    "dtype": "float32"
+  },
+  {
+    "name": "res2.bn1.weight",
+    "file": "res2__bn1__weight.npy",
+    "shape": [
+      128
+    ],
+    "dtype": "float32"
+  },
+  {
+    "name": "res2.bn1.bias",
+    "file": "res2__bn1__bias.npy",
+    "shape": [
+      128
+    ],
+    "dtype": "float32"
+  },
+  {
+    "name": "res2.bn1.running_mean",
+    "file": "res2__bn1__running_mean.npy",
+    "shape": [
+      128
+    ],
+    "dtype": "float32"
+  },
+  {
+    "name": "res2.bn1.running_var",
+    "file": "res2__bn1__running_var.npy",
+    "shape": [
+      128
+    ],
+    "dtype": "float32"
+  },
+  {
+    "name": "res2.bn1.num_batches_tracked",
+    "file": "res2__bn1__num_batches_tracked.npy",
+    "shape": [],
+    "dtype": "float32"
+  },
+  {
+    "name": "res2.lif1.threshold",
+    "file": "res2__lif1__threshold.npy",
+    "shape": [],
+    "dtype": "float32"
+  },
+  {
+    "name": "res2.lif1.graded_spikes_factor",
+    "file": "res2__lif1__graded_spikes_factor.npy",
+    "shape": [],
+    "dtype": "float32"
+  },
+  {
+    "name": "res2.lif1.reset_mechanism_val",
+    "file": "res2__lif1__reset_mechanism_val.npy",
+    "shape": [],
+    "dtype": "float32"
+  },
+  {
+    "name": "res2.lif1.beta",
+    "file": "res2__lif1__beta.npy",
+    "shape": [],
+    "dtype": "float32"
+  },
+  {
+    "name": "res2.conv2.weight",
+    "file": "res2__conv2__weight.npy",
+    "shape": [
+      128,
+      128,
+      3,
+      3
+    ],
+    "dtype": "float32"
+  },
+  {
+    "name": "res2.bn2.weight",
+    "file": "res2__bn2__weight.npy",
+    "shape": [
+      128
+    ],
+    "dtype": "float32"
+  },
+  {
+    "name": "res2.bn2.bias",
+    "file": "res2__bn2__bias.npy",
+    "shape": [
+      128
+    ],
+    "dtype": "float32"
+  },
+  {
+    "name": "res2.bn2.running_mean",
+    "file": "res2__bn2__running_mean.npy",
+    "shape": [
+      128
+    ],
+    "dtype": "float32"
+  },
+  {
+    "name": "res2.bn2.running_var",
+    "file": "res2__bn2__running_var.npy",
+    "shape": [
+      128
+    ],
+    "dtype": "float32"
+  },
+  {
+    "name": "res2.bn2.num_batches_tracked",
+    "file": "res2__bn2__num_batches_tracked.npy",
+    "shape": [],
+    "dtype": "float32"
+  },
+  {
+    "name": "res2.lif2.threshold",
+    "file": "res2__lif2__threshold.npy",
+    "shape": [],
+    "dtype": "float32"
+  },
+  {
+    "name": "res2.lif2.graded_spikes_factor",
+    "file": "res2__lif2__graded_spikes_factor.npy",
+    "shape": [],
+    "dtype": "float32"
+  },
+  {
+    "name": "res2.lif2.reset_mechanism_val",
+    "file": "res2__lif2__reset_mechanism_val.npy",
+    "shape": [],
+    "dtype": "float32"
+  },
+  {
+    "name": "res2.lif2.beta",
+    "file": "res2__lif2__beta.npy",
+    "shape": [],
+    "dtype": "float32"
+  },
+  {
+    "name": "conv2.weight",
+    "file": "conv2__weight.npy",
+    "shape": [
+      256,
+      128,
+      3,
+      3
+    ],
+    "dtype": "float32"
+  },
+  {
+    "name": "bn2.weight",
+    "file": "bn2__weight.npy",
+    "shape": [
+      256
+    ],
+    "dtype": "float32"
+  },
+  {
+    "name": "bn2.bias",
+    "file": "bn2__bias.npy",
+    "shape": [
+      256
+    ],
+    "dtype": "float32"
+  },
+  {
+    "name": "bn2.running_mean",
+    "file": "bn2__running_mean.npy",
+    "shape": [
+      256
+    ],
+    "dtype": "float32"
+  },
+  {
+    "name": "bn2.running_var",
+    "file": "bn2__running_var.npy",
+    "shape": [
+      256
+    ],
+    "dtype": "float32"
+  },
+  {
+    "name": "bn2.num_batches_tracked",
+    "file": "bn2__num_batches_tracked.npy",
+    "shape": [],
+    "dtype": "float32"
+  },
+  {
+    "name": "lif2.threshold",
+    "file": "lif2__threshold.npy",
+    "shape": [],
+    "dtype": "float32"
+  },
+  {
+    "name": "lif2.graded_spikes_factor",
+    "file": "lif2__graded_spikes_factor.npy",
+    "shape": [],
+    "dtype": "float32"
+  },
+  {
+    "name": "lif2.reset_mechanism_val",
+    "file": "lif2__reset_mechanism_val.npy",
+    "shape": [],
+    "dtype": "float32"
+  },
+  {
+    "name": "lif2.beta",
+    "file": "lif2__beta.npy",
+    "shape": [],
+    "dtype": "float32"
+  },
+  {
+    "name": "res3.conv1.weight",
+    "file": "res3__conv1__weight.npy",
+    "shape": [
+      256,
+      256,
+      3,
+      3
+    ],
+    "dtype": "float32"
+  },
+  {
+    "name": "res3.bn1.weight",
+    "file": "res3__bn1__weight.npy",
+    "shape": [
+      256
+    ],
+    "dtype": "float32"
+  },
+  {
+    "name": "res3.bn1.bias",
+    "file": "res3__bn1__bias.npy",
+    "shape": [
+      256
+    ],
+    "dtype": "float32"
+  },
+  {
+    "name": "res3.bn1.running_mean",
+    "file": "res3__bn1__running_mean.npy",
+    "shape": [
+      256
+    ],
+    "dtype": "float32"
+  },
+  {
+    "name": "res3.bn1.running_var",
+    "file": "res3__bn1__running_var.npy",
+    "shape": [
+      256
+    ],
+    "dtype": "float32"
+  },
+  {
+    "name": "res3.bn1.num_batches_tracked",
+    "file": "res3__bn1__num_batches_tracked.npy",
+    "shape": [],
+    "dtype": "float32"
+  },
+  {
+    "name": "res3.lif1.threshold",
+    "file": "res3__lif1__threshold.npy",
+    "shape": [],
+    "dtype": "float32"
+  },
+  {
+    "name": "res3.lif1.graded_spikes_factor",
+    "file": "res3__lif1__graded_spikes_factor.npy",
+    "shape": [],
+    "dtype": "float32"
+  },
+  {
+    "name": "res3.lif1.reset_mechanism_val",
+    "file": "res3__lif1__reset_mechanism_val.npy",
+    "shape": [],
+    "dtype": "float32"
+  },
+  {
+    "name": "res3.lif1.beta",
+    "file": "res3__lif1__beta.npy",
+    "shape": [],
+    "dtype": "float32"
+  },
+  {
+    "name": "res3.conv2.weight",
+    "file": "res3__conv2__weight.npy",
+    "shape": [
+      256,
+      256,
+      3,
+      3
+    ],
+    "dtype": "float32"
+  },
+  {
+    "name": "res3.bn2.weight",
+    "file": "res3__bn2__weight.npy",
+    "shape": [
+      256
+    ],
+    "dtype": "float32"
+  },
+  {
+    "name": "res3.bn2.bias",
+    "file": "res3__bn2__bias.npy",
+    "shape": [
+      256
+    ],
+    "dtype": "float32"
+  },
+  {
+    "name": "res3.bn2.running_mean",
+    "file": "res3__bn2__running_mean.npy",
+    "shape": [
+      256
+    ],
+    "dtype": "float32"
+  },
+  {
+    "name": "res3.bn2.running_var",
+    "file": "res3__bn2__running_var.npy",
+    "shape": [
+      256
+    ],
+    "dtype": "float32"
+  },
+  {
+    "name": "res3.bn2.num_batches_tracked",
+    "file": "res3__bn2__num_batches_tracked.npy",
+    "shape": [],
+    "dtype": "float32"
+  },
+  {
+    "name": "res3.lif2.threshold",
+    "file": "res3__lif2__threshold.npy",
+    "shape": [],
+    "dtype": "float32"
+  },
+  {
+    "name": "res3.lif2.graded_spikes_factor",
+    "file": "res3__lif2__graded_spikes_factor.npy",
+    "shape": [],
+    "dtype": "float32"
+  },
+  {
+    "name": "res3.lif2.reset_mechanism_val",
+    "file": "res3__lif2__reset_mechanism_val.npy",
+    "shape": [],
+    "dtype": "float32"
+  },
+  {
+    "name": "res3.lif2.beta",
+    "file": "res3__lif2__beta.npy",
+    "shape": [],
+    "dtype": "float32"
+  },
+  {
+    "name": "fc.weight",
+    "file": "fc__weight.npy",
+    "shape": [
+      10,
+      4096
+    ],
+    "dtype": "float32"
+  },
+  {
+    "name": "fc.bias",
+    "file": "fc__bias.npy",
+    "shape": [
+      10
+    ],
+    "dtype": "float32"
+  },
+  {
+    "name": "lif_out.threshold",
+    "file": "lif_out__threshold.npy",
+    "shape": [],
+    "dtype": "float32"
+  },
+  {
+    "name": "lif_out.graded_spikes_factor",
+    "file": "lif_out__graded_spikes_factor.npy",
+    "shape": [],
+    "dtype": "float32"
+  },
+  {
+    "name": "lif_out.reset_mechanism_val",
+    "file": "lif_out__reset_mechanism_val.npy",
+    "shape": [],
+    "dtype": "float32"
+  },
+  {
+    "name": "lif_out.beta",
+    "file": "lif_out__beta.npy",
+    "shape": [],
+    "dtype": "float32"
+  }
+]

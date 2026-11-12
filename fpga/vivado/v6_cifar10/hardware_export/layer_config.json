@@ -1,0 +1,76 @@
+{
+  "model": "CIFAR10SNN_V4",
+  "input": {
+    "channels": 3,
+    "height": 32,
+    "width": 32
+  },
+  "timesteps": 32,
+  "classes": 10,
+  "layers": [
+    {
+      "name": "conv0",
+      "type": "conv2d",
+      "in_channels": 3,
+      "out_channels": 64,
+      "kernel": 3,
+      "padding": 1,
+      "batch_norm": "bn0",
+      "lif": "lif0",
+      "pool": 2
+    },
+    {
+      "name": "res1",
+      "type": "residual",
+      "channels": 64,
+      "blocks": 2
+    },
+    {
+      "name": "conv1",
+      "type": "conv2d",
+      "in_channels": 64,
+      "out_channels": 128,
+      "kernel": 3,
+      "padding": 1,
+      "batch_norm": "bn1",
+      "lif": "lif1",
+      "pool": 2
+    },
+    {
+      "name": "res2",
+      "type": "residual",
+      "channels": 128,
+      "blocks": 2
+    },
+    {
+      "name": "conv2",
+      "type": "conv2d",
+      "in_channels": 128,
+      "out_channels": 256,
+      "kernel": 3,
+      "padding": 1,
+      "batch_norm": "bn2",
+      "lif": "lif2",
+      "pool": 2
+    },
+    {
+      "name": "res3",
+      "type": "residual",
+      "channels": 256,
+      "blocks": 2
+    },
+    {
+      "name": "fc",
+      "type": "linear",
+      "in_features": 4096,
+      "out_features": 10,
+      "bias": true,
+      "lif": "lif_out"
+    }
+  ],
+  "notes": [
+    "Configuration describes the intended architecture, not a verified FPGA implementation.",
+    "Residual blocks contain two convolution-BatchNorm-LIF stages and an identity addition.",
+    "Fixed-point arithmetic and full-network accuracy must be validated."
+  ]
+}

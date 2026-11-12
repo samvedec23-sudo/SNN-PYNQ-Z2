@@ -1,0 +1,74 @@
+{
+  "bn0": {
+    "channels": 64,
+    "eps": 1e-05,
+    "scale_file": "bn0__scale.npy",
+    "offset_file": "bn0__offset.npy",
+    "dtype": "float32",
+    "status": "floating-point coefficients; not yet fixed-point"
+  },
+  "bn1": {
+    "channels": 128,
+    "eps": 1e-05,
+    "scale_file": "bn1__scale.npy",
+    "offset_file": "bn1__offset.npy",
+    "dtype": "float32",
+    "status": "floating-point coefficients; not yet fixed-point"
+  },
+  "bn2": {
+    "channels": 256,
+    "eps": 1e-05,
+    "scale_file": "bn2__scale.npy",
+    "offset_file": "bn2__offset.npy",
+    "dtype": "float32",
+    "status": "floating-point coefficients; not yet fixed-point"
+  },
+  "res1__bn1": {
+    "channels": 64,
+    "eps": 1e-05,
+    "scale_file": "res1__bn1__scale.npy",
+    "offset_file": "res1__bn1__offset.npy",
+    "dtype": "float32",
+    "status": "floating-point coefficients; not yet fixed-point"
+  },
+  "res1__bn2": {
+    "channels": 64,
+    "eps": 1e-05,
+    "scale_file": "res1__bn2__scale.npy",
+    "offset_file": "res1__bn2__offset.npy",
+    "dtype": "float32",
+    "status": "floating-point coefficients; not yet fixed-point"
+  },
+  "res2__bn1": {
+    "channels": 128,
+    "eps": 1e-05,
+    "scale_file": "res2__bn1__scale.npy",
+    "offset_file": "res2__bn1__offset.npy",
+    "dtype": "float32",
+    "status": "floating-point coefficients; not yet fixed-point"
+  },
+  "res2__bn2": {
+    "channels": 128,
+    "eps": 1e-05,
+    "scale_file": "res2__bn2__scale.npy",
+    "offset_file": "res2__bn2__offset.npy",
+    "dtype": "float32",
+    "status": "floating-point coefficients; not yet fixed-point"
+  },
+  "res3__bn1": {
+    "channels": 256,
+    "eps": 1e-05,
+    "scale_file": "res3__bn1__scale.npy",
+    "offset_file": "res3__bn1__offset.npy",
+    "dtype": "float32",
+    "status": "floating-point coefficients; not yet fixed-point"
+  },
+  "res3__bn2": {
+    "channels": 256,
+    "eps": 1e-05,
+    "scale_file": "res3__bn2__scale.npy",
+    "offset_file": "res3__bn2__offset.npy",
+    "dtype": "float32",
+    "status": "floating-point coefficients; not yet fixed-point"
+  }
+}

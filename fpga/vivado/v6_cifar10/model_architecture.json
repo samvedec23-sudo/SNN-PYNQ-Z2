@@ -1,0 +1,39 @@
+{
+  "model_name": "CIFAR10SNN_V4",
+  "dataset": "CIFAR-10",
+  "input_shape": [
+    3,
+    32,
+    32
+  ],
+  "num_classes": 10,
+  "num_time_steps": 32,
+  "channels": [
+    64,
+    128,
+    256
+  ],
+  "residual_blocks": 3,
+  "pooling": "MaxPool2d(2)",
+  "classifier": {
+    "type": "Linear",
+    "input_features": 4096,
+    "output_features": 10
+  },
+  "residual_block": {
+    "conv1": "3x3, padding=1, bias=False",
+    "batch_norm1": true,
+    "lif1": true,
+    "conv2": "3x3, padding=1, bias=False",
+    "batch_norm2": true,
+    "lif2": true,
+    "skip_connection": "out = out + identity"
+  },
+  "checkpoint_epoch": 30,
+  "software_test_accuracy_percent": 77.12,
+  "notes": [
+    "Accuracy measured using random input spikes.",
+    "Verify inference equivalence before reporting final accuracy.",
+    "INT8 weights are experimental; full-network quantized accuracy is unverified."
+  ]
+}

@@ -1,0 +1,130 @@
+[
+  {
+    "source": "conv0__weight.npy",
+    "memory_file": "conv0__weight.mem",
+    "shape": [
+      64,
+      3,
+      3,
+      3
+    ],
+    "elements": 1728,
+    "dtype": "int8",
+    "encoding": "one signed two's-complement byte per line"
+  },
+  {
+    "source": "conv1__weight.npy",
+    "memory_file": "conv1__weight.mem",
+    "shape": [
+      128,
+      64,
+      3,
+      3
+    ],
+    "elements": 73728,
+    "dtype": "int8",
+    "encoding": "one signed two's-complement byte per line"
+  },
+  {
+    "source": "conv2__weight.npy",
+    "memory_file": "conv2__weight.mem",
+    "shape": [
+      256,
+      128,
+      3,
+      3
+    ],
+    "elements": 294912,
+    "dtype": "int8",
+    "encoding": "one signed two's-complement byte per line"
+  },
+  {
+    "source": "fc__weight.npy",
+    "memory_file": "fc__weight.mem",
+    "shape": [
+      10,
+      4096
+    ],
+    "elements": 40960,
+    "dtype": "int8",
+    "encoding": "one signed two's-complement byte per line"
+  },
+  {
+    "source": "res1__conv1__weight.npy",
+    "memory_file": "res1__conv1__weight.mem",
+    "shape": [
+      64,
+      64,
+      3,
+      3
+    ],
+    "elements": 36864,
+    "dtype": "int8",
+    "encoding": "one signed two's-complement byte per line"
+  },
+  {
+    "source": "res1__conv2__weight.npy",
+    "memory_file": "res1__conv2__weight.mem",
+    "shape": [
+      64,
+      64,
+      3,
+      3
+    ],
+    "elements": 36864,
+    "dtype": "int8",
+    "encoding": "one signed two's-complement byte per line"
+  },
+  {
+    "source": "res2__conv1__weight.npy",
+    "memory_file": "res2__conv1__weight.mem",
+    "shape": [
+      128,
+      128,
+      3,
+      3
+    ],
+    "elements": 147456,
+    "dtype": "int8",
+    "encoding": "one signed two's-complement byte per line"
+  },
+  {
+    "source": "res2__conv2__weight.npy",
+    "memory_file": "res2__conv2__weight.mem",
+    "shape": [
+      128,
+      128,
+      3,
+      3
+    ],
+    "elements": 147456,
+    "dtype": "int8",
+    "encoding": "one signed two's-complement byte per line"
+  },
+  {
+    "source": "res3__conv1__weight.npy",
+    "memory_file": "res3__conv1__weight.mem",
+    "shape": [
+      256,
+      256,
+      3,
+      3
+    ],
+    "elements": 589824,
+    "dtype": "int8",
+    "encoding": "one signed two's-complement byte per line"
+  },
+  {
+    "source": "res3__conv2__weight.npy",
+    "memory_file": "res3__conv2__weight.mem",
+    "shape": [
+      256,
+      256,
+      3,
+      3
+    ],
+    "elements": 589824,
+    "dtype": "int8",
+    "encoding": "one signed two's-complement byte per line"
+  }
+]

@@ -1,0 +1,127 @@
+{
+  "format": "32-bit two's-complement hexadecimal",
+  "fractional_bits": 16,
+  "scale": 65536,
+  "files": [
+    {
+      "file": "res1_bn1_a_fixed.mem",
+      "source": "res1_bn1_a_fixed.npy",
+      "elements": 64,
+      "shape": [
+        64
+      ],
+      "dtype": "int32",
+      "round_trip_verified": true
+    },
+    {
+      "file": "res1_bn1_b_fixed.mem",
+      "source": "res1_bn1_b_fixed.npy",
+      "elements": 64,
+      "shape": [
+        64
+      ],
+      "dtype": "int32",
+      "round_trip_verified": true
+    },
+    {
+      "file": "res1_bn2_a_fixed.mem",
+      "source": "res1_bn2_a_fixed.npy",
+      "elements": 64,
+      "shape": [
+        64
+      ],
+      "dtype": "int32",
+      "round_trip_verified": true
+    },
+    {
+      "file": "res1_bn2_b_fixed.mem",
+      "source": "res1_bn2_b_fixed.npy",
+      "elements": 64,
+      "shape": [
+        64
+      ],
+      "dtype": "int32",
+      "round_trip_verified": true
+    },
+    {
+      "file": "res2_bn1_a_fixed.mem",
+      "source": "res2_bn1_a_fixed.npy",
+      "elements": 128,
+      "shape": [
+        128
+      ],
+      "dtype": "int32",
+      "round_trip_verified": true
+    },
+    {
+      "file": "res2_bn1_b_fixed.mem",
+      "source": "res2_bn1_b_fixed.npy",
+      "elements": 128,
+      "shape": [
+        128
+      ],
+      "dtype": "int32",
+      "round_trip_verified": true
+    },
+    {
+      "file": "res2_bn2_a_fixed.mem",
+      "source": "res2_bn2_a_fixed.npy",
+      "elements": 128,
+      "shape": [
+        128
+      ],
+      "dtype": "int32",
+      "round_trip_verified": true
+    },
+    {
+      "file": "res2_bn2_b_fixed.mem",
+      "source": "res2_bn2_b_fixed.npy",
+      "elements": 128,
+      "shape": [
+        128
+      ],
+      "dtype": "int32",
+      "round_trip_verified": true
+    },
+    {
+      "file": "res3_bn1_a_fixed.mem",
+      "source": "res3_bn1_a_fixed.npy",
+      "elements": 256,
+      "shape": [
+        256
+      ],
+      "dtype": "int32",
+      "round_trip_verified": true
+    },
+    {
+      "file": "res3_bn1_b_fixed.mem",
+      "source": "res3_bn1_b_fixed.npy",
+      "elements": 256,
+      "shape": [
+        256
+      ],
+      "dtype": "int32",
+      "round_trip_verified": true
+    },
+    {
+      "file": "res3_bn2_a_fixed.mem",
+      "source": "res3_bn2_a_fixed.npy",
+      "elements": 256,
+      "shape": [
+        256
+      ],
+      "dtype": "int32",
+      "round_trip_verified": true
+    },
+    {
+      "file": "res3_bn2_b_fixed.mem",
+      "source": "res3_bn2_b_fixed.npy",
+      "elements": 256,
+      "shape": [
+        256
+      ],
+      "dtype": "int32",
+      "round_trip_verified": true
+    }
+  ]
+}
